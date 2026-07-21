@@ -36,11 +36,11 @@ export default function Header() {
   // Safe image load check for the logo from multiple potential paths
   useEffect(() => {
     const paths = [
-      '/src/assets/logo.png',
-      '/assets/logo.jpeg',
-      '/src/assets/logo.svg',
-      '/assets/logo.svg',
-      '/pure-path-logo.png'
+      '/src/public/logo.png',
+      '/public/logo.jpeg',
+      '/src/public/logo.svg',
+      '/public/logo.svg',
+      '/logo.jpeg'
     ];
 
     let found = false;
