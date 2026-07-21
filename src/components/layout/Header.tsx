@@ -40,7 +40,7 @@ export default function Header() {
       '/public/logo.jpeg',
       '/src/public/logo.svg',
       '/public/logo.svg',
-      '/logo.jpeg'
+      '/dist/logo.jpeg'
     ];
 
     let found = false;
