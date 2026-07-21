@@ -229,50 +229,52 @@ export default function OnePartnerSection() {
               </p>
 
               {/* Tangled/Fragmented SVG illustration */}
-              <div className="relative h-[280px] bg-white rounded-2xl border border-dashed border-slate-200 overflow-hidden p-4 mb-6 flex items-center justify-center">
+              <div className="relative h-[280px] w-full max-w-[340px] sm:max-w-none bg-white rounded-2xl border border-dashed border-slate-200 overflow-hidden p-4 mb-6 flex items-center justify-center mx-auto">
                 {/* Tangled curved background connectors */}
-                <svg className="absolute inset-0 w-full h-full opacity-30 pointer-events-none">
-                  <path d="M 50,50 Q 150,180 80,240" fill="none" stroke="#94A3B8" strokeWidth="1" strokeDasharray="4 4" />
-                  <path d="M 230,50 Q 110,130 180,230" fill="none" stroke="#94A3B8" strokeWidth="1.5" strokeDasharray="3 3" />
-                  <path d="M 220,100 Q 50,110 50,220" fill="none" stroke="#94A3B8" strokeWidth="1" strokeDasharray="5 5" />
-                  <path d="M 60,110 Q 240,180 200,60" fill="none" stroke="#94A3B8" strokeWidth="1" strokeDasharray="2 2" />
+                <svg className="absolute inset-0 w-full h-full opacity-35 pointer-events-none" viewBox="0 0 100 100" preserveAspectRatio="none">
+                  <path d="M 15,12 Q 30,35 50,50" fill="none" stroke="#94A3B8" strokeWidth="0.8" strokeDasharray="3 3" />
+                  <path d="M 85,12 Q 70,35 50,50" fill="none" stroke="#94A3B8" strokeWidth="0.8" strokeDasharray="3 3" />
+                  <path d="M 12,42 Q 28,48 50,50" fill="none" stroke="#94A3B8" strokeWidth="0.8" strokeDasharray="3 3" />
+                  <path d="M 88,42 Q 72,48 50,50" fill="none" stroke="#94A3B8" strokeWidth="0.8" strokeDasharray="3 3" />
+                  <path d="M 15,88 Q 30,65 50,50" fill="none" stroke="#94A3B8" strokeWidth="0.8" strokeDasharray="3 3" />
+                  <path d="M 85,88 Q 70,65 50,50" fill="none" stroke="#94A3B8" strokeWidth="0.8" strokeDasharray="3 3" />
                 </svg>
 
                 {/* Scattered Agency Cards */}
-                <div className="absolute top-4 left-6 scale-95 opacity-80 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-lg text-[10px] font-bold text-slate-400 flex items-center gap-1.5 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-300" />
+                <div className="absolute top-[6%] left-[3%] scale-[0.8] xs:scale-[0.88] sm:scale-[0.95] opacity-80 bg-slate-50 border border-slate-200 px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg text-[8px] sm:text-[10px] font-bold text-slate-400 flex items-center gap-1 sm:gap-1.5 shadow-2xs whitespace-nowrap">
+                  <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-slate-300 shrink-0" />
                   Branding Agency
                 </div>
-                <div className="absolute top-12 right-6 scale-95 opacity-85 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-lg text-[10px] font-bold text-slate-400 flex items-center gap-1.5 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-300" />
+                <div className="absolute top-[6%] right-[3%] scale-[0.8] xs:scale-[0.88] sm:scale-[0.95] opacity-85 bg-slate-50 border border-slate-200 px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg text-[8px] sm:text-[10px] font-bold text-slate-400 flex items-center gap-1 sm:gap-1.5 shadow-2xs whitespace-nowrap">
+                  <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-slate-300 shrink-0" />
                   SEO/Marketing Agency
                 </div>
-                <div className="absolute top-32 left-3 scale-90 opacity-75 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-lg text-[10px] font-bold text-slate-400 flex items-center gap-1.5 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-300" />
+                <div className="absolute top-[36%] left-[2%] scale-[0.8] xs:scale-[0.88] sm:scale-[0.95] opacity-75 bg-slate-50 border border-slate-200 px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg text-[8px] sm:text-[10px] font-bold text-slate-400 flex items-center gap-1 sm:gap-1.5 shadow-2xs whitespace-nowrap">
+                  <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-slate-300 shrink-0" />
                   Web Developer
                 </div>
-                <div className="absolute bottom-16 right-4 scale-95 opacity-85 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-lg text-[10px] font-bold text-slate-400 flex items-center gap-1.5 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-300" />
-                  Software Team
-                </div>
-                <div className="absolute bottom-28 right-8 scale-90 opacity-80 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-lg text-[10px] font-bold text-slate-400 flex items-center gap-1.5 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-300" />
+                <div className="absolute top-[36%] right-[2%] scale-[0.8] xs:scale-[0.88] sm:scale-[0.95] opacity-80 bg-slate-50 border border-slate-200 px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg text-[8px] sm:text-[10px] font-bold text-slate-400 flex items-center gap-1 sm:gap-1.5 shadow-2xs whitespace-nowrap">
+                  <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-slate-300 shrink-0" />
                   AI Consultant
                 </div>
-                <div className="absolute bottom-4 left-10 scale-95 opacity-80 bg-slate-50 border border-slate-200 px-3 py-1.5 rounded-lg text-[10px] font-bold text-slate-400 flex items-center gap-1.5 shadow-2xs">
-                  <span className="w-1.5 h-1.5 rounded-full bg-slate-300" />
+                <div className="absolute bottom-[6%] left-[3%] scale-[0.8] xs:scale-[0.88] sm:scale-[0.95] opacity-80 bg-slate-50 border border-slate-200 px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg text-[8px] sm:text-[10px] font-bold text-slate-400 flex items-center gap-1 sm:gap-1.5 shadow-2xs whitespace-nowrap">
+                  <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-slate-300 shrink-0" />
                   Cloud Host
+                </div>
+                <div className="absolute bottom-[6%] right-[3%] scale-[0.8] xs:scale-[0.88] sm:scale-[0.95] opacity-85 bg-slate-50 border border-slate-200 px-2 py-1 sm:px-3 sm:py-1.5 rounded-lg text-[8px] sm:text-[10px] font-bold text-slate-400 flex items-center gap-1 sm:gap-1.5 shadow-2xs whitespace-nowrap">
+                  <span className="w-1 h-1 sm:w-1.5 sm:h-1.5 rounded-full bg-slate-300 shrink-0" />
+                  Software Team
                 </div>
 
                 {/* Isolated Fragmented Client center block */}
-                <div className="bg-slate-100 border-2 border-slate-200 rounded-xl p-3 text-center shadow-xs z-10 max-w-[130px] border-dashed">
-                  <div className="w-8 h-8 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 mx-auto mb-1.5">
-                    <HelpCircle className="w-4 h-4" />
+                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-slate-100 border-2 border-slate-200 rounded-xl p-2.5 sm:p-3 text-center shadow-xs z-10 w-full max-w-[115px] sm:max-w-[130px] scale-[0.85] sm:scale-100 border-dashed shrink-0">
+                  <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-slate-200 flex items-center justify-center text-slate-500 mx-auto mb-1 sm:mb-1.5">
+                    <HelpCircle className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
                   </div>
-                  <span className="text-[10px] font-extrabold text-slate-500 block leading-tight">
+                  <span className="text-[9px] sm:text-[10px] font-extrabold text-slate-500 block leading-tight">
                     YOUR BUSINESS
                   </span>
-                  <span className="text-[8px] font-medium text-slate-400 block mt-0.5">
+                  <span className="text-[7.5px] sm:text-[8px] font-medium text-slate-400 block mt-0.5 leading-none">
                     Stuck coordinating
                   </span>
                 </div>
@@ -332,7 +334,7 @@ export default function OnePartnerSection() {
               </p>
 
               {/* Interconnected Interactive Wheel Diagram */}
-              <div className="relative h-[280px] bg-slate-50/50 rounded-2xl border border-primary/5 overflow-hidden flex items-center justify-center">
+              <div className="relative h-[280px] w-full max-w-[280px] sm:max-w-none bg-slate-50/50 rounded-2xl border border-primary/5 overflow-hidden flex items-center justify-center mx-auto">
                 
                 {/* Unified connection lines background */}
                 <svg className="absolute inset-0 w-full h-full pointer-events-none overflow-visible">
@@ -359,14 +361,14 @@ export default function OnePartnerSection() {
                 <div className="absolute w-[50%] h-[50%] rounded-full border border-dashed border-primary/5 pointer-events-none animate-[spin_60s_linear_infinite_reverse]" />
 
                 {/* Central unified Core Anchor */}
-                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white border border-primary/20 rounded-2xl w-24 h-24 flex flex-col items-center justify-center p-2 text-center shadow-md z-20">
-                  <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#0866C6] to-[#1687F8] flex items-center justify-center text-white font-extrabold text-xs mb-1">
+                <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white border border-primary/20 rounded-2xl w-20 h-20 sm:w-24 sm:h-24 flex flex-col items-center justify-center p-1.5 sm:p-2 text-center shadow-md z-20 scale-90 sm:scale-100">
+                  <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-gradient-to-br from-[#0866C6] to-[#1687F8] flex items-center justify-center text-white font-extrabold text-[10px] sm:text-xs mb-0.5 sm:mb-1">
                     P
                   </div>
-                  <span className="text-[9px] font-extrabold text-[#102033] tracking-wider block font-sans">
+                  <span className="text-[8px] sm:text-[9px] font-extrabold text-[#102033] tracking-wider block font-sans">
                     PURE PATH
                   </span>
-                  <span className="text-[7px] font-bold text-primary block mt-0.5 uppercase tracking-widest">
+                  <span className="text-[6px] sm:text-[7px] font-bold text-primary block mt-0.5 uppercase tracking-widest">
                     Consolidated
                   </span>
                 </div>
@@ -385,18 +387,18 @@ export default function OnePartnerSection() {
                       }}
                       onMouseEnter={() => setHoveredCapability(cap.id)}
                       onMouseLeave={() => setHoveredCapability(null)}
-                      className={`absolute rounded-xl bg-white border p-1.5 flex flex-col items-center justify-center text-center cursor-pointer shadow-2xs z-30 transition-all duration-300 w-16 h-16 ${
+                      className={`absolute rounded-xl bg-white border p-1 flex flex-col items-center justify-center text-center cursor-pointer shadow-2xs z-30 transition-all duration-300 w-13 h-13 sm:w-16 sm:h-16 ${
                         isFocused
-                          ? 'border-primary shadow-sm scale-110 bg-[#EAF5FF]/20'
+                          ? 'border-primary shadow-sm scale-105 sm:scale-110 bg-[#EAF5FF]/20'
                           : 'border-slate-100 hover:border-primary/40'
                       }`}
                     >
                       <NodeIcon
-                        className={`w-4 h-4 mb-0.5 transition-colors duration-300 ${
-                          isFocused ? 'text-primary scale-110' : 'text-slate-500'
+                        className={`w-3.5 h-3.5 sm:w-4 sm:h-4 mb-0.5 transition-colors duration-300 ${
+                          isFocused ? 'text-primary scale-105 sm:scale-110' : 'text-slate-500'
                         }`}
                       />
-                      <span className="text-[7px] font-extrabold text-[#102033] tracking-wide leading-none uppercase">
+                      <span className="text-[6px] sm:text-[7px] font-extrabold text-[#102033] tracking-wide leading-none uppercase max-w-full truncate px-0.5">
                         {cap.label}
                       </span>
                     </div>

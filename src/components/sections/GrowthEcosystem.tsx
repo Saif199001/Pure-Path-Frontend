@@ -291,8 +291,12 @@ export default function GrowthEcosystem() {
           <div className="absolute inset-2 rounded-full border border-primary/5 bg-slate-50/50 -z-10" />
           <div className="absolute -inset-2 rounded-full border border-primary/10 opacity-30 animate-pulse -z-20" />
           
-          <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-[#0866C6] to-[#1687F8] flex items-center justify-center text-white font-extrabold text-base shadow-md mb-2">
-            P
+          <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center mb-1">
+            <img
+              src="/logo1.jpeg"
+              alt="Pure Path Infotech"
+              className="w-full h-full object-contain"
+            />
           </div>
           
           <span className="text-[10px] font-bold tracking-widest text-[#071B33] font-sans uppercase">
