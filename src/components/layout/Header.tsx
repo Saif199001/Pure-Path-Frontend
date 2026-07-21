@@ -37,10 +37,10 @@ export default function Header() {
   useEffect(() => {
     const paths = [
       '/src/public/logo.png',
-      '/public/logo.jpeg',
+      '/assets/logo.jpeg',
       '/src/public/logo.svg',
       '/public/logo.svg',
-      '/dist/logo.jpeg'
+      '/logo.jpeg'
     ];
 
     let found = false;
