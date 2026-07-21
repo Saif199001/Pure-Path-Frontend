@@ -198,7 +198,7 @@ export default function ContactPage() {
                   <p className="text-xs text-[var(--color-muted)] mt-1">Connect with our solutions engineers instantly on WhatsApp:</p>
                 </div>
                 <a
-                  href="https://wa.me/1234567890?text=Hi,%20I'm%20interested%20in%20discussing%20a%20project%20with%20Pure%20Path%20Infotech."
+                  href="https://wa.me/+919587395454?text=Hi,%20I'm%20interested%20in%20discussing%20a%20project%20with%20Pure%20Path%20Infotech."
                   target="_blank"
                   referrerPolicy="no-referrer"
                   className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100/70 border border-emerald-200/50 text-emerald-600 text-xs font-bold transition-colors cursor-pointer"

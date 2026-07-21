@@ -138,8 +138,8 @@ export default function Footer() {
                 <li className="flex items-start gap-2.5">
                   <MapPin className="w-4 h-4 text-primary-light shrink-0 mt-0.5" />
                   <span>
-                    Pure Path Infotech Headquarters<br />
-                    Tech Hub District, Suite 500
+                    Ward No 8 Near Ram Leela Ground Sangaria-335063<br />
+                    District hanumangarh Rajasthan India
                   </span>
                 </li>
                 <li className="flex items-center gap-2.5">
@@ -150,7 +150,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center gap-2.5">
                   <Phone className="w-4 h-4 text-primary-light shrink-0" />
-                  <span>+1 (800) 555-PATH</span>
+                  <span>+919587395454</span>
                 </li>
               </ul>
             </div>
