@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-primary-light: var(--color-primary-light);
+  --color-navy: var(--color-navy);
+  --color-background: var(--color-background);
+  --color-surface: var(--color-surface);
+  --color-text: var(--color-text);
+  --color-muted: var(--color-muted);
+  --color-border: var(--color-border);
+  
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+:root {
+  --color-primary: #0866C6;
+  --color-primary-dark: #054B94;
+  --color-primary-light: #1687F8;
+  --color-navy: #071B33;
+  --color-background: #F7FAFD;
+  --color-surface: #FFFFFF;
+  --color-text: #102033;
+  --color-muted: #607085;
+  --color-border: #EAF5FF;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+  }
+
+  /* Custom outline focus style for premium accessibility */
+  :focus-visible {
+    outline: 2px solid var(--color-primary-light);
+    outline-offset: 2px;
+  }
+}
+
+/* Base custom classes */
+.gradient-text {
+  background: linear-gradient(135deg, #0866C6 0%, #1687F8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #0866C6 0%, #1687F8 100%);
+}
+
+.gradient-dark-bg {
+  background: linear-gradient(135deg, #071B33 0%, #092D54 100%);
+}
