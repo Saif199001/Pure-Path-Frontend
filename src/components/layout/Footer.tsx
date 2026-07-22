@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Mail, Phone, MapPin, Linkedin, Twitter, Github, ArrowUpRight } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Facebook, Instagram, ArrowUpRight } from 'lucide-react';
 import Container from '../ui/Container';
 
 export default function Footer() {
@@ -69,8 +69,12 @@ export default function Footer() {
                   />
                 ) : (
                   <>
-                    <div className="w-9 h-9 rounded-lg bg-primary flex items-center justify-center text-white font-bold text-lg shadow-sm">
-                      P
+                    <div className="w-16 h-10 sm:w-20 sm:h-12 flex items-center justify-center mb-1">
+                      <img
+                        src="/logo1.jpeg"
+                        alt="Pure Path Infotech"
+                        className="max-w-full max-h-full object-contain"
+                      />
                     </div>
                     <span className="text-xl font-bold font-display tracking-tight text-white">
                       Pure Path<span className="text-primary-light font-medium"> Infotech</span>
@@ -78,13 +82,6 @@ export default function Footer() {
                   </>
                 )}
               </a>
-              <div className="w-16 h-10 sm:w-20 sm:h-12 flex items-center justify-center mb-1">
-                  <img
-                    src="/logo.jpeg"
-                    alt="Pure Path Infotech"
-                    className="max-w-full max-h-full object-contain"
-                  />
-                </div>
               
               {/* Social links */}
               <div className="flex items-center gap-3.5 pt-2">
