@@ -362,9 +362,13 @@ export default function OnePartnerSection() {
 
                 {/* Central unified Core Anchor */}
                 <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 bg-white border border-primary/20 rounded-2xl w-20 h-20 sm:w-24 sm:h-24 flex flex-col items-center justify-center p-1.5 sm:p-2 text-center shadow-md z-20 scale-90 sm:scale-100">
-                  <div className="w-6 h-6 sm:w-7 sm:h-7 rounded-lg bg-gradient-to-br from-[#0866C6] to-[#1687F8] flex items-center justify-center text-white font-extrabold text-[10px] sm:text-xs mb-0.5 sm:mb-1">
-                    P
-                  </div>
+                  <div className="w-16 h-10 sm:w-20 sm:h-12 flex items-center justify-center mb-1">
+                      <img
+                        src="/logo.jpeg"
+                        alt="Pure Path Infotech"
+                        className="max-w-full max-h-full object-contain"
+                      />
+                    </div>
                   <span className="text-[8px] sm:text-[9px] font-extrabold text-[#102033] tracking-wider block font-sans">
                     PURE PATH
                   </span>

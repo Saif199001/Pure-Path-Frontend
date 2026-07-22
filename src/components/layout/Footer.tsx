@@ -78,20 +78,24 @@ export default function Footer() {
                   </>
                 )}
               </a>
-              <p className="text-sm text-slate-400 leading-relaxed max-w-sm">
-                Your Digital Growth & Technology Partner. We bring strategy, creativity, and advanced engineering together to help your business move forward.
-              </p>
+              <div className="w-16 h-10 sm:w-20 sm:h-12 flex items-center justify-center mb-1">
+                  <img
+                    src="/logo.jpeg"
+                    alt="Pure Path Infotech"
+                    className="max-w-full max-h-full object-contain"
+                  />
+                </div>
               
               {/* Social links */}
               <div className="flex items-center gap-3.5 pt-2">
-                <a href="#linkedin" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-primary hover:text-white flex items-center justify-center text-slate-400 transition-colors" aria-label="LinkedIn">
+                <a href="https://www.linkedin.com/company/pure-path-infotech/" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-primary hover:text-white flex items-center justify-center text-slate-400 transition-colors" aria-label="LinkedIn">
                   <Linkedin className="w-4 h-4" />
                 </a>
-                <a href="#twitter" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-primary hover:text-white flex items-center justify-center text-slate-400 transition-colors" aria-label="Twitter">
-                  <Twitter className="w-4 h-4" />
+                <a href="https://www.facebook.com/purepathinfotech/" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-primary hover:text-white flex items-center justify-center text-slate-400 transition-colors" aria-label="Facebook">
+                  <Facebook className="w-4 h-4" />
                 </a>
-                <a href="#github" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-primary hover:text-white flex items-center justify-center text-slate-400 transition-colors" aria-label="GitHub">
-                  <Github className="w-4 h-4" />
+                <a href="https://www.instagram.com/purepathinfotech/" className="w-9 h-9 rounded-lg bg-slate-800 hover:bg-primary hover:text-white flex items-center justify-center text-slate-400 transition-colors" aria-label="Instagram">
+                  <Instagram className="w-4 h-4" />
                 </a>
               </div>
             </div>
