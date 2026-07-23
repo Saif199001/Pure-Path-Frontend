@@ -14,9 +14,8 @@ export default function FinalCTA() {
   const [prefersReducedMotion, setPrefersReducedMotion] = useState<boolean>(false);
 
   // Safely grab WhatsApp URL from standard environment configurations or fallback to dynamic build options
-  const whatsappUrl = typeof window !== 'undefined' 
-    ? ((import.meta as any).env?.VITE_WHATSAPP_URL || 'https://wa.me/message/purepath')
-    : 'https://wa.me/message/purepath';
+  const whatsappUrl = (import.meta as any).env?.VITE_WHATSAPP_URL ||
+    'https://wa.me/919587395454?text=Hello%20Pure%20Path%20Infotech%2C%20I%20would%20like%20to%20discuss%20a%20project.';
 
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-reduced-motion: reduce)');
