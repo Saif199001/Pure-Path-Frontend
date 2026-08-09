@@ -75,22 +75,12 @@ export default function Header() {
           {/* Brand Logo / Fallback Link */}
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center gap-2.5 group">
-              {logoSrc ? (
                 <img
                   src={logoSrc}
                   alt="Pure Path Infotech Logo"
                   className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
                 />
-              ) : (
-                <div className="flex items-center gap-2">
-                  <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-primary to-primary-light flex items-center justify-center text-white font-extrabold text-xl shadow-md group-hover:scale-105 transition-all duration-200">
-                    P
-                  </div>
-                  <span className="text-lg sm:text-xl font-bold font-display tracking-tight text-[var(--color-text)] select-none">
-                    Pure Path<span className="text-primary font-semibold"> Infotech</span>
-                  </span>
-                </div>
-              )}
+              
             </a>
           </div>
 
