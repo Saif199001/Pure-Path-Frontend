@@ -76,7 +76,7 @@ export default function Header() {
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center gap-2.5 group">
                 <img
-                  src={logoSrc}
+                  src="../../public/logo.jpeg"
                   alt="Pure Path Infotech Logo"
                   className="h-10 sm:h-12 w-auto object-contain transition-transform group-hover:scale-[1.02]"
                 />
