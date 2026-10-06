@@ -303,7 +303,7 @@ export default function SolutionPage({ slug }: SolutionPageProps) {
               </div>
               <div className="space-y-4">
                 <h3 className="text-xl sm:text-2xl font-extrabold text-[#102033] tracking-tight">
-                  Why Businesses Choose Pure Path
+                  Why Businesses Choose PurePath
                 </h3>
                 <p className="text-sm sm:text-base text-[var(--color-muted)] leading-relaxed">
                   {solution.whyPurePath}

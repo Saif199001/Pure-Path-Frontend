@@ -52,7 +52,7 @@ export default function PrivacyPolicyPage({ type }: PrivacyPolicyPageProps) {
                 <div className="space-y-3">
                   <h3 className="text-lg font-extrabold">1. Introduction & Scope</h3>
                   <p className="text-xs sm:text-sm text-[var(--color-muted)]">
-                    Pure Path Infotech ("we", "us", "our") takes privacy very seriously. This Privacy Policy explains what personal information we collect through our static corporate website and floating assistant widgets, how we utilize this information safely, and your privacy control rights.
+                    PurePath Infotech ("we", "us", "our") takes privacy very seriously. This Privacy Policy explains what personal information we collect through our static corporate website and floating assistant widgets, how we utilize this information safely, and your privacy control rights.
                   </p>
                 </div>
 
@@ -94,7 +94,7 @@ export default function PrivacyPolicyPage({ type }: PrivacyPolicyPageProps) {
                 <div className="space-y-3">
                   <h3 className="text-lg font-extrabold">2. Intellectual Property Rights</h3>
                   <p className="text-xs sm:text-sm text-[var(--color-muted)]">
-                    All intellectual assets displayed on this site, including visual design guidelines, brand books, custom vector grids, written copy, and reusable front-end code assets, remain the exclusive property of Pure Path Infotech and are protected under international copyright regulations.
+                    All intellectual assets displayed on this site, including visual design guidelines, brand books, custom vector grids, written copy, and reusable front-end code assets, remain the exclusive property of PurePath Infotech and are protected under international copyright regulations.
                   </p>
                 </div>
 

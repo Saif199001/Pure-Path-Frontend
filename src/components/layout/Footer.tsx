@@ -64,7 +64,7 @@ export default function Footer() {
                 {logoSrc ? (
                   <img
                     src={logoSrc}
-                    alt="Pure Path Infotech Logo"
+                    alt="PurePath Infotech Logo"
                     className="h-9 w-auto object-contain transition-transform group-hover:scale-[1.02]"
                   />
                 ) : (
@@ -77,7 +77,7 @@ export default function Footer() {
                       />
                     </div>
                     <span className="text-xl font-bold font-display tracking-tight text-white">
-                      Pure Path<span className="text-primary-light font-medium"> Infotech</span>
+                      PurePath<span className="text-primary-light font-medium"> Infotech</span>
                     </span>
                   </>
                 )}

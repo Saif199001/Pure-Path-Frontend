@@ -294,13 +294,13 @@ export default function GrowthEcosystem() {
           <div className="w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center mb-1">
             <img
               src="/logo1.jpeg"
-              alt="Pure Path Infotech"
+              alt="PurePath Infotech"
               className="w-full h-full object-contain"
             />
           </div>
           
           <span className="text-[10px] font-bold tracking-widest text-[#071B33] font-sans uppercase">
-            PURE PATH
+            PUREPATH
           </span>
           
           <span className="text-[8px] font-bold text-[#607085] uppercase tracking-wider mt-1 block">

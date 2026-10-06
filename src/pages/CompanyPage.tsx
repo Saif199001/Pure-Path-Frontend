@@ -51,7 +51,7 @@ export default function CompanyPage() {
               One Partner for Your Digital Journey.
             </h1>
             <p className="text-base sm:text-lg text-[var(--color-muted)] leading-relaxed font-normal">
-              Pure Path Infotech was founded to eliminate digital fragmentation. We believe that a company's brand narrative, software architectures, acquisition channels, and automation flows should work in perfect harmony under one unified ecosystem.
+              PurePath Infotech was founded to eliminate digital fragmentation. We believe that a company's brand narrative, software architectures, acquisition channels, and automation flows should work in perfect harmony under one unified ecosystem.
             </p>
           </div>
         </div>
@@ -123,7 +123,7 @@ export default function CompanyPage() {
               Ecosystem
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#102033] tracking-tight">
-              The Pure Path Ecosystem
+              The PurePath Ecosystem
             </h2>
             <p className="text-sm sm:text-base text-[var(--color-muted)] leading-relaxed">
               We align our digital work around five core business lifecycle stages to ensure continuous, sustainable growth:
@@ -239,7 +239,7 @@ export default function CompanyPage() {
                   <p className="text-xs text-[var(--color-muted)] mt-1">{member.role}</p>
                 </div>
                 <div className="text-[10px] text-slate-300 font-mono tracking-wider uppercase">
-                  PURE PATH TEAM PLACEHOLDER
+                  PUREPATH TEAM PLACEHOLDER
                 </div>
               </div>
             ))}

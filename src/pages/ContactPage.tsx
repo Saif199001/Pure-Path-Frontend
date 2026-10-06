@@ -169,7 +169,7 @@ export default function ContactPage() {
             <div className="lg:col-span-5 space-y-8">
               <div className="space-y-4">
                 <h3 className="text-xl font-extrabold text-[#102033] tracking-tight">
-                  Why Partner with Pure Path?
+                  Why Partner with PurePath?
                 </h3>
                 <p className="text-xs sm:text-sm text-[var(--color-muted)] leading-relaxed">
                   We integrate multiple technical disciplines under one unified partner ecosystem, ensuring brand, data, and user experience flow beautifully without vendor friction.

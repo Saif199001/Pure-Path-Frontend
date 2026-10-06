@@ -178,7 +178,7 @@ export default function OnePartnerSection() {
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[11px] font-bold tracking-widest text-primary uppercase font-mono bg-[#EAF5FF] border border-primary/15 mb-4"
           >
             <Users className="w-3.5 h-3.5 text-primary" />
-            Why Pure Path
+            Why PurePath
           </motion.div>
 
           <motion.h2
@@ -198,7 +198,7 @@ export default function OnePartnerSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-base sm:text-lg text-[#607085] leading-relaxed"
           >
-            Building a successful business shouldn't mean managing multiple agencies, freelancers and technology vendors. From your first idea to long-term growth, Pure Path brings strategy, creativity, commerce and technology together — so you can move faster with one trusted partner.
+            Building a successful business shouldn't mean managing multiple agencies, freelancers and technology vendors. From your first idea to long-term growth, PurePath brings strategy, creativity, commerce and technology together — so you can move faster with one trusted partner.
           </motion.p>
         </div>
 
@@ -323,7 +323,7 @@ export default function OnePartnerSection() {
             <div>
               <div className="flex items-center justify-between mb-4">
                 <span className="text-[11px] font-bold tracking-wider text-primary uppercase font-mono bg-primary/10 px-2.5 py-1 rounded-md">
-                  The Pure Path Way
+                  The PurePath Way
                 </span>
               </div>
               <h3 className="text-xl font-extrabold text-[#102033] mb-1">
@@ -365,12 +365,12 @@ export default function OnePartnerSection() {
                   <div className="w-16 h-10 sm:w-20 sm:h-12 flex items-center justify-center mb-1">
                     <img
                       src="/logo1.jpeg"
-                      alt="Pure Path Infotech"
+                      alt="PurePath Infotech"
                       className="max-w-full max-h-full object-contain"
                     />
                   </div>
                   <span className="text-[8px] sm:text-[9px] font-extrabold text-[#102033] tracking-wider block font-sans">
-                    PURE PATH
+                    PUREPATH
                   </span>
                   <span className="text-[6px] sm:text-[7px] font-bold text-primary block mt-0.5 uppercase tracking-widest">
                     Consolidated

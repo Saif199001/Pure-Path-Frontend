@@ -99,7 +99,7 @@ export default function ServicePage({ slug }: ServicePageProps) {
                     <Target className="w-10 h-10 text-primary animate-pulse" />
                   </div>
                   <div className="space-y-1">
-                    <span className="text-xs font-bold text-slate-300 tracking-wider font-mono uppercase">PURE PATH TECH</span>
+                    <span className="text-xs font-bold text-slate-300 tracking-wider font-mono uppercase">PUREPATH TECH</span>
                     <h3 className="text-lg font-extrabold text-[#102033]">{service.title}</h3>
                     <p className="text-[11px] text-[var(--color-muted)] max-w-[200px]">Connected digital ecosystem built to scale business models.</p>
                   </div>
@@ -163,7 +163,7 @@ export default function ServicePage({ slug }: ServicePageProps) {
               Our Approach
             </span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-[#102033] tracking-tight">
-              How Pure Path Helps
+              How PurePath Helps
             </h2>
             <p className="text-sm sm:text-base text-[var(--color-muted)] leading-relaxed">
               {service.approachDesc}
